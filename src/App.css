@@ -1,24 +1,89 @@
 .App {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 10px;
+  /* text-align: center; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.Apple, .Orange, .Banana {
+.container {
+  margin: 0 auto;
   padding: 20px;
-  margin: 10px
+  max-width: 800px;
 }
-.Apple {
-  background-color: #9ff39f;
+.tab-bar {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
 }
-.Orange {
-  background-color: #f8c142;
+.tab {
+  padding: 10px 15px;
+  font-size: 1.5em;
+  font-weight: bold;
 }
-.Banana {
-  background-color: #f3f5a2;
+.tab:hover {
+  color: red;
+}
+.content {
+  /* min-height: 400px; */
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0;
+}
+.component {
+  height: 100%;
+  padding: 0 30px 30px 30px;
+}
+.Home {
+  background-color: #ececec;
+  border: 1px solid black;
+}
+.AddItemForms {
+  color: black;
+  background-color: #9f9;
+  border: 1px solid #575;
+  border-radius: 5px;
+}
+.InventoryTable {
+  color: black;
+  background-color: #fc4;
+  border: 1px solid #850;
+  border-radius: 5px;
+}
+.delete {
+  background-color: #fcb;
+  border: 1px solid #e11;
+}
+.feedback {
+  color: blue;
+  margin: 0 20px;
+}
+a:link {
+  text-decoration: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 100%;
+}
+thead th {
+  border-bottom: 2px solid #555;
+}
+td {
+  border-bottom: 1px solid #555;
+}
+th, td {
+  text-align: left;
+  padding: 0.5rem;
 }
 button {
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  margin: 10px 10px;
+  padding: 5px 10px;
+}
+form {
+  display: flex;
+  flex-flow: column wrap;
+}
+input[type] {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px 10px;
+  margin: 10px 0 20px;
+  background-color: #fff;
 }
