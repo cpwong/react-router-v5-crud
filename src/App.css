@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+}
+.Apple, .Orange, .Banana {
+  padding: 20px;
+  margin: 10px
+}
+.Apple {
+  background-color: #9ff39f;
+}
+.Orange {
+  background-color: #f8c142;
+}
+.Banana {
+  background-color: #f3f5a2;
+}
+button {
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  margin: 10px 10px;
+}
